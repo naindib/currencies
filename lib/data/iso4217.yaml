@@ -3,17 +3,24 @@ AED:
   code: AED
   name: Dirhams
   full_name: "United Arab Emirates Dirhams"
+  symbol: د.إ
+  symbol_first: false
+  stripe_cur: true
 AFN:
   code: AFN
   name: Afghanis
   full_name: "Afghan Afghanis"
   symbol: ؋
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 1547
 ALL:
   code: ALL
   name: Leke
   full_name: "Albanian Lek"
   symbol: LEK
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 76
     - 101
@@ -22,27 +29,39 @@ AMD:
   code: AMD
   name: Drams
   full_name: "Armenian Drams"
+  symbol: դր.
+  symbol_first: false
+  stripe_cur: true
 ANG:
   code: ANG
   name: Guilders
   full_name: "Netherlands Antillean Guilders"
   symbol: ƒ
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 402
 AOA:
   code: AOA
   name: Kwanza
   full_name: "Angolan Kwanza"
+  symbol: Kz
+  symbol_first: false
+  stripe_cur: true
 ARS:
   code: ARS
   name: Pesos
   full_name: "Argentine Pesos"
   symbol: $
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 AUD:
   code: AUD
   name: Dollars
   full_name: "Australian Dollars"
-  symbol: $
+  symbol: AU$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 AWG:
   alt_name: Florins
@@ -50,12 +69,16 @@ AWG:
   name: Guilders
   full_name: "Aruban Guilders"
   symbol: ƒ
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 402
 AZN:
   code: AZN
   name: "New Manats"
   full_name: "Azerbaijan New Manats"
-  symbol: ман
+  symbol: manatı
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 1084
     - 1072
@@ -65,6 +88,8 @@ BAM:
   name: "Convertible Marka"
   full_name: "Convertible Marka"
   symbol: KM
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 75
     - 77
@@ -72,17 +97,24 @@ BBD:
   code: BBD
   name: Dollars
   full_name: "Barbados Dollars"
-  symbol: $
+  symbol: Bds$
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 36
 BDT:
   code: BDT
   name: Taka
   full_name: "Bangladeshi Taka"
+  symbol: ৳
+  symbol_first: true
+  stripe_cur: true
 BGN:
   code: BGN
   name: Leva
   full_name: "Bulgarian Leva"
   symbol: лв
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 82
     - 1074
@@ -90,27 +122,39 @@ BHD:
   code: BHD
   name: Dinars
   full_name: "Bahraini Dinars"
+  symbol: .د.ب
+  symbol_first: true
+  stripe_cur: false
 BIF:
   code: BIF
   name: Francs
   full_name: "Burundi Francs"
+  symbol: Fr
+  symbol_first: false
+  stripe_cur: true
 BMD:
   code: BMD
   name: Dollars
   full_name: "Bermudian Dollars"
-  symbol: $
+  symbol: BD$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 BND:
   code: BND
   name: Dollars
   full_name: "Brunei Dollars"
-  symbol: $
+  symbol: B$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 BOB:
   code: BOB
   name: Bolivianos
   full_name: "Bolivianos"
-  symbol: $b
+  symbol: Bs.
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 36
     - 98
@@ -119,6 +163,8 @@ BRL:
   name: Real
   full_name: "Brazilian Real"
   symbol: R$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 82
     - 36
@@ -126,23 +172,32 @@ BSD:
   code: BSD
   name: Dollars
   full_name: "Bahamian Dollars"
-  symbol: $
+  symbol: B$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 BTN:
   code: BTN
   name: Ngultrum
   full_name: "Bhutan Ngultrum"
+  symbol: Nu.
+  symbol_first: false
+  stripe_cur: false
 BWP:
   code: BWP
   name: Pulas
   full_name: "Botswana Pulas"
   symbol: P
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 80
 BYR:
   code: BYR
   name: Rubles
   full_name: "Belarussian Rubles"
-  symbol: p.
+  symbol: бел. руб.
+  symbol_first: false
+  stripe_cur: false
   unicode_hex:
     - 112
     - 46
@@ -151,6 +206,8 @@ BZD:
   name: Dollars
   full_name: "Belize Dollars"
   symbol: BZ$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 66
     - 90
@@ -159,17 +216,24 @@ CAD:
   code: CAD
   name: Dollars
   full_name: "Canadian Dollars"
-  symbol: $
+  symbol: CA$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 CDF:
   code: CDF
   name: Franc
   full_name: "Franc"
+  symbol: FC
+  symbol_first: false
+  stripe_cur: true
 CHF:
   code: CHF
   name: "Switzerland Francs"
   full_name: "Switzerland Francs"
   symbol: CHF
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 67
     - 72
@@ -178,41 +242,56 @@ CLP:
   code: CLP
   name: Pesos
   full_name: "Chilean Pesos"
-  symbol: $
+  symbol: Ch$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 CNY:
   code: CNY
   name: "Yuan Renminbi"
   full_name: "Yuan Renminbi"
   symbol: ¥
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 165
 COP:
   code: COP
   name: Pesos
   full_name: "Colombian Pesos"
-  symbol: $
+  symbol: COL$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 CRC:
   code: CRC
   name: Colones
   full_name: "Costa Rican Colones"
   symbol: ₡
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8353
 CUP:
   code: CUP
   name: Pesos
   full_name: "Cuban Pesos"
   symbol: ₱
+  symbol_first: true
+  stripe_cur: false
   unicode_hex: 8369
 CVE:
   code: CVE
   name: Escudos
   full_name: "Cape Verde Escudos"
+  symbol: Esc
+  symbol_first: true
+  stripe_cur: true
 CZK:
   code: CZK
   name: Koruny
   full_name: "Czech Koruny"
   symbol: Kč
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 75
     - 269
@@ -220,11 +299,16 @@ DJF:
   code: DJF
   name: Francs
   full_name: "Djibouti Francs"
+  symbol: Fdj
+  symbol_first: false
+  stripe_cur: true
 DKK:
   code: DKK
   name: Kroner
   full_name: "Danish Kroner"
   symbol: kr
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 107
     - 114
@@ -233,6 +317,8 @@ DOP:
   name: Pesos
   full_name: "Dominican Pesos"
   symbol: RD$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 82
     - 68
@@ -241,107 +327,137 @@ DZD:
   code: DZD
   name: Dinars
   full_name: "Algerian Dinar"
-ECS:
-  code: ECS
-  name: Sucre
-  full_name: "Ecuador Sucre"
-EEK:
-  code: EEK
-  name: Krooni
-  full_name: "Krooni"
-  symbol: kr
-  unicode_hex:
-    - 107
-    - 114
+  symbol: DA
+  symbol_first: false
+  stripe_cur: true
 EGP:
   code: EGP
   name: Pounds
   full_name: "Egyptian Pounds"
-  symbol: £
+  symbol: E£
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 163
+ERN:
+  code: ERN
+  name: Eritrean Nakfa
+  full_name: "Eritrean Nakfa"
+  symbol: Nfk
+  symbol_first: false
+  stripe_cur: false
 ETB:
   code: ETB
   name: "Ethopia Birr"
   full_name: "Ethopia Birr"
+  symbol: Br
+  symbol_first: false
+  stripe_cur: true
 EUR:
   code: EUR
   name: Euro
   full_name: "Euro"
   symbol: €
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8364
 FJD:
   code: FJD
   name: Dollar
   full_name: "Fiji Dollar"
+  symbol: FJ$
+  symbol_first: false
+  stripe_cur: true
 FKP:
   code: FKP
   name: Pounds
   full_name: "Falkland Islands Pounds"
-  symbol: £
+  symbol: FK£
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 163
 GBP:
   code: GBP
   name: Pounds
   full_name: "Pound Sterling"
   symbol: £
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 163
 GEL:
   code: GEL
   name: Lari
   full_name: "Lari"
-GGP:
-  code: GGP
-  name: Pounds
-  full_name: "Pound Sterling"
-  symbol: £
-  unicode_hex: 163
+  symbol: ლარი
+  symbol_first: false
+  stripe_cur: true
 GHS:
   code: GHS
   name: Cedis
   full_name: "Ghanaian Cedis"
   symbol: ¢
+  symbol_first: true
+  stripe_cur: false
   unicode_hex: 162
 GIP:
   code: GIP
   name: Pounds
   full_name: "Gibraltar Pounds"
-  symbol: £
+  symbol: £(GIP)
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 163
 GMD:
   code: GMD
   name: Lari
   full_name: "Gambian Dalasi"
+  symbol: D
+  symbol_first: false
+  stripe_cur: true
 GNF:
   code: GNF
   name: Francs
   full_name: "Guinea Francs"
+  symbol: GFr
+  symbol_first: false
+  stripe_cur: true
 GTQ:
   code: GTQ
   name: Quetzales
   full_name: "Quetzales"
   symbol: Q
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 81
 GYD:
   code: GYD
   name: Dollars
   full_name: "Guyana Dollars"
+  symbol: G$
+  symbol_first: false
+  stripe_cur: true
 HKD:
   code: HKD
   name: Dollars
   full_name: "Hong Kong Dollars"
-  symbol: $
+  symbol: HK$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 HNL:
   code: HNL
   name: Lempiras
   full_name: "Honduaran Lempiras"
   symbol: L
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 76
 HRK:
   code: HRK
   name: Kuna
   full_name: "Croatian Kuna"
   symbol: kn
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 107
     - 110
@@ -349,11 +465,16 @@ HTG:
   code: HTG
   name: "Haitian Gourde"
   full_name: "Haitian Gourde"
+  symbol: G
+  symbol_first: false
+  stripe_cur: true
 HUF:
   code: HUF
   name: Forint
   full_name: "Hungarian Forint"
   symbol: Ft
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 70
     - 116
@@ -362,6 +483,8 @@ IDR:
   name: "Indonesian Rupiahs"
   full_name: "Indonesian Rupiahs"
   symbol: Rp
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 82
     - 112
@@ -370,34 +493,47 @@ ILS:
   name: "New Shekels"
   full_name: "New Shekels"
   symbol: ₪
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8362
 IMP:
   code: IMP
   name: Pounds
   full_name: "Pounds"
-  symbol: £
+  symbol: M£
+  symbol_first: true
+  stripe_cur: false
   unicode_hex: 163
 INR:
   code: INR
   name: Rupees
   full_name: "Indian Rupees"
   symbol: ₨
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8360
 IQD:
   code: IQD
   name: Dinars
   full_name: "Iraqi Dinars"
+  symbol: ع.د
+  symbol_first: false
+  stripe_cur: false
 IRR:
   code: IRR
   name: Riais
   full_name: "Iranian Riais"
   symbol: ﷼
+  symbol_first: true
+  stripe_cur: false
   unicode_hex: 65020
 ISK:
   code: ISK
   name: Kronur
   full_name: "Iceland Kronur"
   symbol: kr
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 107
     - 114
@@ -406,30 +542,45 @@ JEP:
   name: Pounds
   full_name: "Pounds"
   symbol: £
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 163
 JMD:
   code: JMD
   name: Dollars
   full_name: "Jamaican Dollars"
+  symbol: J$
+  symbol_first: true
+  stripe_cur: true
 JOD:
   code: JOD
   name: Dinars
   full_name: "Jordanian Dinar"
+  symbol: دينار
+  symbol_first: true
+  stripe_cur: false
 JPY:
   code: JPY
   name: Yen
   full_name: "Japanese Yen"
   symbol: ¥
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 165
 KES:
   code: KES
   name: Shillings
   full_name: "Kenyan Shillings"
+  symbol: KSh
+  symbol_first: true
+  stripe_cur: true
 KGS:
   code: KGS
   name: Soms
   full_name: "Soms"
-  symbol: лв
+  symbol: сом
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 1083
     - 1074
@@ -437,37 +588,54 @@ KHR:
   code: KHR
   name: Rieis
   full_name: "Kampuchean Rieis"
+  symbol: ៛
+  symbol_first: false
+  stripe_cur: true
 KMF:
   code: KMF
   name: Francs
   full_name: "Comoros Francs"
+  symbol: CF
+  symbol_first: false
+  stripe_cur: true
 KPW:
   code: KPW
   name: Won
   full_name: "North Korean Won"
   symbol: ₩
+  symbol_first: false
+  stripe_cur: false
   unicode_hex: 8361
 KRW:
   code: KRW
   name: Won
   full_name: "Korean Won"
   symbol: ₩
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8361
 KWD:
   code: KWD
   name: Dinars
   full_name: "Kuwaiti Dinars"
+  symbol: د.ك
+  symbol_first: true
+  stripe_cur: false
 KYD:
   code: KYD
   name: Dollars
   full_name: "Cayman Islands Dollars"
-  symbol: $
+  symbol: CI$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 KZT:
   code: KZT
   name: Tenege
   full_name: "Kazhakstan Tenege"
-  symbol: лв
+  symbol: 〒
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 1083
     - 1074
@@ -476,34 +644,47 @@ LAK:
   name: Kips
   full_name: "Lao Kips"
   symbol: ₭
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8365
 LBP:
   code: LBP
   name: Pounds
   full_name: "Lebanese Pounds"
-  symbol: £
+  symbol: L£
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 163
 LKR:
   code: LKR
   name: Rupees
   full_name: "Sri Lanka Rupees"
-  symbol: ₨
+  symbol: SL ₨
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8360
 LRD:
   code: LRD
   name: Dollars
   full_name: "Liberian Dollars"
-  symbol: $
+  symbol: L$
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 36
 LSL:
   code: LSL
   name: Maloti
   full_name: "Lesotho Maloti"
+  symbol: L
+  symbol_first: false
+  stripe_cur: true
 LTL:
   code: LTL
   name: Litai
   full_name: "Lithuanian Litai"
   symbol: Lt
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 76
     - 116
@@ -512,6 +693,8 @@ LVL:
   name: Lati
   full_name: "Latvian Lati"
   symbol: Ls
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 76
     - 115
@@ -519,65 +702,103 @@ LYD:
   code: LYD
   name: Dinars
   full_name: "Libyan Dinars"
+  symbol: ل.د
+  symbol_first: false
+  stripe_cur: false
 MAD:
   code: MAD
   name: Dirhams
   full_name: "Moroccan Dirhams"
+  symbol: د.م.
+  symbol_first: false
+  stripe_cur: true
 MDL:
   code: MDL
   name: Lei
   full_name: "Moldovan Lei"
-MKD:
-  code: MKD
-  name: "Macedonian Denar"
-  full_name: "Macedonian Denar"
+  symbol: лей
+  symbol_first: false
+  stripe_cur: true
 MGA:
   code: MGA
   name: Ariary
   full_name: "Ariary"
+  symbol: Ar
+  symbol_first: true
+  stripe_cur: true
+MKD:
+  code: MKD
+  name: "Macedonian Denar"
+  full_name: "Macedonian Denar"
+  symbol: ден
+  symbol_first: true
+  stripe_cur: true
 MMK:
   code: MMK
   name: Kyat
   full_name: "Myanmar Kyat"
-MNK:
-  code: MNK
-  name: Kyats
-  full_name: "Kyats"
+  symbol: Ks
+  symbol_first: false
+  stripe_cur: false
 MNT:
   code: MNT
   name: Tugriks
   full_name: "Mongolian Tugriks"
   symbol: ₮
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8366
+MOP:
+  code: MOP
+  name: Pataca
+  full_name: "Macanese Pataca"
+  symbol: MOP$
+  symbol_first: false
+  stripe_cur: true
 MRO:
   code: MRO
   name: Ouguiyas
   full_name: "Mauritanian Ouguiyas"
+  symbol: UM
+  symbol_first: false
+  stripe_cur: true
 MUR:
   code: MUR
   name: Rupees
   full_name: "Mauritius Rupees"
-  symbol: ₨
+  symbol: Mau ₨
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8360
 MVR:
   code: MVR
   name: Rufiyaa
   full_name: "Maldive Rufiyaa"
+  symbol: MVR
+  symbol_first: true
+  stripe_cur: true
 MWK:
   code: MWK
   name: Kwachas
   full_name: "Malawi Kwachas"
+  symbol: MK
+  symbol_first: false
+  stripe_cur: true
 MXN:
   code: MXN
   name: Pesos
   full_name: "Mexican Nuevo Pesos"
-  symbol: $
+  symbol: MEX$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 MYR:
   code: MYR
   name: Ringgits
   full_name: "Malaysian Ringgits"
   symbol: RM
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 82
     - 77
@@ -585,7 +806,9 @@ MZN:
   code: MZN
   name: Meticals
   full_name: "Mozambique Meticals"
-  symbol: MT
+  symbol: MTn
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 77
     - 84
@@ -593,19 +816,25 @@ NAD:
   code: NAD
   name: Dollars
   full_name: "Namibian Dollars"
-  symbol: $
+  symbol: N$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 NGN:
   code: NGN
   name: Nairas
   full_name: "Nigerian Nairas"
   symbol: ₦
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8358
 NIO:
   code: NIO
   name: Cordobas
   full_name: "Nicaraguan Cordobas Oro"
   symbol: C$
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 67
     - 36
@@ -614,6 +843,8 @@ NOK:
   name: Kroner
   full_name: "Norwegian Kroner"
   symbol: kr
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 123
     - 114
@@ -621,25 +852,33 @@ NPR:
   code: NPR
   name: Rupees
   full_name: "Nepalese Rupees"
-  symbol: ₨
+  symbol: N₨
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8360
 NZD:
   code: NZD
   name: "New Zealand Dollars"
   full_name: "New Zealand Dollars"
-  symbol: $
+  symbol: NZ$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 OMR:
   code: OMR
   name: Riais
   full_name: "Riais"
   symbol: ﷼
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 65020
 PAB:
   code: PAB
   name: Balboa
   full_name: "Balboa"
   symbol: B/.
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 66
     - 47
@@ -649,17 +888,24 @@ PEN:
   name: "Nuevos Soles"
   full_name: "Peru Nuevos Soles"
   symbol: S/.
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - "0x50,0x2f,0x2e"
 PGK:
   code: PGK
   name: Kina
   full_name: "Kina"
+  symbol: K
+  symbol_first: false
+  stripe_cur: true
 PHP:
   code: PHP
   name: Pesos
   full_name: "Phillippines Pesos"
-  symbol: Php
+  symbol: PhP
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 80
     - 104
@@ -669,12 +915,16 @@ PKR:
   name: Rupees
   full_name: "Pakistani Rupees"
   symbol: ₨
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 8360
 PLN:
   code: PLN
   name: Zlotych
   full_name: "Poland Zlotych"
   symbol: zł
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 122
     - 322
@@ -682,7 +932,9 @@ PYG:
   code: PYG
   name: Guarani
   full_name: "Paraguay Guarani"
-  symbol: Gs
+  symbol: ₲
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 71
     - 115
@@ -690,13 +942,17 @@ QAR:
   code: QAR
   name: Rials
   full_name: "Qatar Rials"
-  symbol: ﷼
+  symbol: QR
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 65020
 RON:
   code: RON
   name: "New Lei"
   full_name: "Romanian New Lei"
   symbol: lei
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 108
     - 101
@@ -706,6 +962,8 @@ RSD:
   name: Dinars
   full_name: "Serbia Dinars"
   symbol: Дин.
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 1044
     - 1080
@@ -716,6 +974,8 @@ RUB:
   name: Rubles
   full_name: "Russia Rubles"
   symbol: руб
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 1088
     - 1091
@@ -724,33 +984,47 @@ RWF:
   code: RWF
   name: Francs
   full_name: "Francs"
+  symbol: FRw
+  symbol_first: false
+  stripe_cur: true
 SAR:
   code: SAR
   name: Riyals
   full_name: "Saudi Arabia Riyals"
   symbol: ﷼
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 65020
 SBD:
   code: SBD
   name: Dollars
   full_name: "Solomon Islands Dollars"
-  symbol: $
+  symbol: SI$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 SCR:
   code: SCR
   name: Rupees
   full_name: "Seychelles Rupees"
-  symbol: ₨
+  symbol: SRe
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8360
 SDG:
   code: SDG
   name: Pounds
   full_name: "Pounds"
+  symbol: SDG
+  symbol_first: true
+  stripe_cur: false
 SEK:
   code: SEK
   name: Kronor
   full_name: "Sweden Kronor"
   symbol: kr
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 107
     - 114
@@ -758,75 +1032,113 @@ SGD:
   code: SGD
   name: Dollars
   full_name: "Singapore Dollars"
-  symbol: $
+  symbol: S$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 SHP:
   code: SHP
   name: Pounds
   full_name: "Saint Helena Pounds"
-  symbol: £
+  symbol: £S
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 163
 SLL:
   code: SLL
   name: Leones
   full_name: "Leones"
+  symbol: Sk
+  symbol_first: true
+  stripe_cur: true
 SOS:
   code: SOS
   name: Shillings
   full_name: "Somalia Shillings"
-  symbol: S
+  symbol: Sh.So.
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 83
 SRD:
   code: SRD
   name: Dollars
   full_name: "Surifull_name Dollars"
-  symbol: $
+  symbol: $Sur
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 36
 STD:
   code: STD
   name: Dobras
   full_name: "Dobras"
+  symbol: Db
+  symbol_first: false
+  stripe_cur: true
 SVC:
   code: SVC
   name: "Salvadoran Colón"
   full_name: "Salvadoran Colón"
+  symbol: ₡
+  symbol_first: true
+  stripe_cur: true
 SYP:
   code: SYP
   name: Pounds
   full_name: "Syria Pounds"
-  symbol: £
+  symbol: £S
+  symbol_first: false
+  stripe_cur: false
   unicode_hex: 163
 SZL:
   code: SZL
   name: Emalangeni
   full_name: "Emalangeni"
+  symbol: E
+  symbol_first: true
+  stripe_cur: true
 THB:
   code: THB
   name: Baht
   full_name: "Thaliand Baht"
   symbol: ฿
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 3647
 TJS:
   code: TJS
   name: Somoni
   full_name: "Somoni"
+  symbol: SM
+  symbol_first: false
+  stripe_cur: true
 TMM:
   code: TMM
   name: Manat
   full_name: "Manat"
+  symbol: T
+  symbol_first: false
+  stripe_cur: false
 TND:
   code: TND
   name: "Dinars"
   full_name: "Tunisian Dinars"
+  symbol: د.ت
+  symbol_first: false
+  stripe_cur: false
 TOP:
   code: TOP
   name: Pa'anga
   full_name: "Pa'anga"
+  symbol: T$
+  symbol_first: true
+  stripe_cur: true
 TRY:
   code: TRY
   name: Lira
   full_name: "Turkey Lira"
   symbol: TL
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 84
     - 76
@@ -834,17 +1146,17 @@ TTD:
   code: TTD
   name: Dollars
   full_name: "Trinidad and Tobago Dollars"
-  symbol: $
+  symbol: TT$
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 36
-TVD:
-  code: TVD
-  name: "Tuvalu Dollars"
-  full_name: "Tuvalu Dollars"
 TWD:
   code: TWD
   name: "New Dollars"
   full_name: "Taiwan New Dollars"
   symbol: NT$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 78
     - 84
@@ -853,27 +1165,39 @@ TZS:
   code: TZS
   name: Shillings
   full_name: "Shillings"
+  symbol: TSh
+  symbol_first: true
+  stripe_cur: true
 UAH:
   code: UAH
   name: Hryvnia
   full_name: "Ukraine Hryvnia"
   symbol: ₴
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8372
 UGX:
   code: UGX
   name: Shillings
   full_name: "Shillings"
+  symbol: USh
+  symbol_first: false
+  stripe_cur: true
 USD:
   code: USD
   name: Dollars
   full_name: "United States Dollars"
   symbol: $
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 UYU:
   code: UYU
   name: Pesos
   full_name: "Uruguay Pesos"
   symbol: $U
+  symbol_first: true
+  stripe_cur: true
   unicode_hex:
     - 36
     - 85
@@ -881,7 +1205,9 @@ UZS:
   code: UZS
   name: Sums
   full_name: "Uzbekistan Sums"
-  symbol: лв
+  symbol: сум
+  symbol_first: false
+  stripe_cur: true
   unicode_hex:
     - 1083
     - 1074
@@ -889,7 +1215,9 @@ VEF:
   code: VEF
   name: "Bolivares Fuertes"
   full_name: "Venezuela Bolivares Fuertes"
-  symbol: Bs
+  symbol: Bs.F.
+  symbol_first: true
+  stripe_cur: false
   unicode_hex:
     - 1083
     - 1074
@@ -898,47 +1226,72 @@ VND:
   name: Dong
   full_name: "Viet Nam Dong"
   symbol: ₫
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 8363
+VUV:
+  code: VUV
+  name: Vanuatu Vatu
+  full_name: "Vanuatu Vatu"
+  symbol: VT
+  symbol_first: false
+  stripe_cur: true
+WST:
+  code: WST
+  name: Samoan Tala
+  full_name: "Samoan Tala"
+  symbol: WS$
+  symbol_first: false
+  stripe_cur: true
 XAF:
   code: XAF
   name: "Communauté Financière Africaine Francs"
   full_name: "Communauté Financière Africaine Francs"
+  symbol: FCFA
+  symbol_first: false
+  stripe_cur: true
 XCD:
   code: XCD
   name: "East Caribbean Dollars"
   full_name: "East Caribbean Dollars"
-  symbol: $
+  symbol: EC$
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 36
 XOF:
   code: XOF
   name: "Communauté Financière Africaine Francs"
   full_name: "Communauté Financière Africaine Francs"
+  symbol: CFA
+  symbol_first: false
+  stripe_cur: true
 XPF:
   code: XPF
   name: "Comptoirs Français du Pacifique Francs"
   full_name: "Comptoirs Français du Pacifique Francs"
+  symbol: F
+  symbol_first: false
+  stripe_cur: true
 YER:
   code: YER
   name: Rials
   full_name: "Yemen Rials"
   symbol: ﷼
+  symbol_first: false
+  stripe_cur: true
   unicode_hex: 65020
 ZAR:
   code: ZAR
   name: Rand
   full_name: "South Africa Rand"
   symbol: R
+  symbol_first: true
+  stripe_cur: true
   unicode_hex: 82
 ZMK:
   code: ZMK
   name: Kwacha
   full_name: "Kwacha"
-ZWD:
-  code: ZWD
-  name: "Zimbabwe Dollars"
-  full_name: "Zimbabwe Dollars"
-  symbol: Z$
-  unicode_hex:
-    - 90
-    - 36
-
+  symbol: ZK
+  symbol_first: true
+  stripe_cur: true
